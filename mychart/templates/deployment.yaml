@@ -33,7 +33,8 @@ spec:
           containerPort: 80
         imagePullPolicy: IfNotPresent
       nodeSelector:
-        kubernetes.io/os: linuxapiVersion: apps/v1
+        kubernetes.io/os: linux
+        apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: eks-sample-linux-deployment
