@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.name
+    value: 757113754638.dkr.ecr.ap-northeast-1.amazonaws.com/argocd
+    forcestring: true
+  - name: image.tag
+    value: v1.1
+    forcestring: true
